@@ -1,0 +1,19 @@
+---
+const links = [
+  { href: "/", label: "Inicio" },
+  { href: "/tema", label: "El tema" },
+  { href: "/recursos", label: "Ideas y recursos" }
+];
+const current = Astro.url.pathname;
+---
+<header class="site-header">
+  <a class="brand" href="/" aria-label="Igualdad sin etiquetas, inicio">
+    <span class="brand-mark" aria-hidden="true">✳</span>
+    <span>sin<span class="brand-accent">etiquetas</span></span>
+  </a>
+  <nav aria-label="Navegación principal">
+    {links.map((link) => (
+      <a href={link.href} aria-current={current === link.href ? "page" : undefined}>{link.label}</a>
+    ))}
+  </nav>
+</header>

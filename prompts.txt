@@ -1,0 +1,9 @@
+REGISTRO DE PROMPTS DE INTELIGENCIA ARTIFICIAL
+Proyecto: Igualdad sin etiquetas
+Herramienta: ChatGPT
+
+Prompt 1:
+A partir de los requisitos de la evaluación, crea una aplicación en Astro sobre la igualdad de género que cuestione los prejuicios asociados al género en las profesiones y oficios. El sitio debe tener tres páginas, cuatro componentes reutilizables, un layout, estilos responsive, navegación funcional, accesibilidad y una organización clara de carpetas.
+
+IMPORTANTE:
+Este archivo debe actualizarse durante el desarrollo. Agreguen en orden cronológico los prompts que realmente utilicen para pedir correcciones, cambios o nuevas funciones a cualquier herramienta de IA. No registren prompts de ejemplo que no hayan enviado.

@@ -1,0 +1,39 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.astro";
+import Card from "../components/Card.astro";
+---
+<Layout title="Inicio" description="Un espacio para cuestionar los prejuicios de género en las profesiones y oficios.">
+  <div class="page-shell">
+    <Hero
+      title="Tu talento no viene con"
+      highlight="etiqueta."
+      description="¿Quién dijo que algunas profesiones son para hombres y otras para mujeres? Exploremos de dónde vienen esas ideas y por qué es hora de dejarlas atrás."
+      action="Descubre por qué"
+      href="/tema"
+    />
+    <section class="intro-section">
+      <div class="section-heading">
+        <p class="eyebrow">CAMBIEMOS LA PREGUNTA</p>
+        <h2>No se trata de quién <em>debería</em> hacerlo.</h2>
+      </div>
+      <p class="intro-text">Se trata de quién quiere hacerlo, qué habilidades tiene y qué oportunidades recibe. Una profesión no define el valor de una persona: sus intereses, capacidades y decisiones merecen ser respetados.</p>
+    </section>
+    <section class="cards-section" aria-labelledby="ideas-title">
+      <div class="section-title-row">
+        <div><p class="eyebrow">TRES IDEAS PARA EMPEZAR</p><h2 id="ideas-title">Miremos más allá del prejuicio.</h2></div>
+        <span class="small-note">01 — 03</span>
+      </div>
+      <div class="card-grid">
+        <Card number="01" tag="CUESTIONAR" title="Los estereotipos se aprenden" description="Desde pequeños recibimos mensajes sobre qué trabajos “corresponden” a cada género. Podemos aprender a cuestionarlos." tone="peach" />
+        <Card number="02" tag="RECONOCER" title="El talento es diverso" description="La creatividad, la fuerza, el cuidado, el liderazgo y la inteligencia no pertenecen a un solo género." tone="lavender" />
+        <Card number="03" tag="TRANSFORMAR" title="La oportunidad debe ser igual" description="Todas las personas deberían poder explorar una profesión sin burlas, barreras ni discriminación." tone="mint" />
+      </div>
+    </section>
+    <section class="quote-band">
+      <span aria-hidden="true">“</span>
+      <p>Una profesión no tiene género.<br /><em>Tiene personas que la hacen posible.</em></p>
+      <a href="/recursos">Lleva la idea a la práctica ↗</a>
+    </section>
+  </div>
+</Layout>

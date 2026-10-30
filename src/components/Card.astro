@@ -1,0 +1,9 @@
+---
+const { number, tag, title, description, tone = "peach" } = Astro.props;
+---
+<article class={`info-card ${tone}`}>
+  <div class="card-top"><span>{number}</span><span class="card-tag">{tag}</span></div>
+  <h3>{title}</h3>
+  <p>{description}</p>
+  <span class="card-spark" aria-hidden="true">✳</span>
+</article>

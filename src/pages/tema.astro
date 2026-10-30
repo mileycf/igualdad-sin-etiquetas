@@ -1,0 +1,33 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+---
+<Layout title="El tema" description="Qué son los estereotipos de género en profesiones y cómo afectan nuestras decisiones.">
+  <div class="page-shell inner-page">
+    <section class="page-intro">
+      <p class="eyebrow"><span>02</span> ENTENDER PARA CAMBIAR</p>
+      <h1>¿De dónde vienen las ideas sobre <em>“trabajos de hombres”</em> y “trabajos de mujeres”?</h1>
+      <p class="lead">Son estereotipos de género: creencias generalizadas que asignan características, tareas o capacidades a las personas según su género.</p>
+    </section>
+    <section class="split-section">
+      <div class="split-visual" aria-label="Composición tipográfica con las palabras capacidad, interés y oportunidad">
+        <span>CAPACIDAD</span><span>INTERÉS</span><span>OPORTUNIDAD</span><b>≠ GÉNERO</b>
+      </div>
+      <div class="split-copy">
+        <p class="eyebrow">EL PROBLEMA</p>
+        <h2>Cuando una idea se convierte en una barrera.</h2>
+        <p>Escuchar que una profesión “no es para ti” puede limitar las opciones que una persona se atreve a considerar. También puede generar discriminación, invisibilizar referentes y hacer que se dude injustamente de las capacidades de alguien.</p>
+        <p>Estas ideas no describen lo que una persona puede hacer: describen expectativas sociales que podemos revisar y cambiar.</p>
+      </div>
+    </section>
+    <section class="cards-section">
+      <div class="section-title-row"><div><p class="eyebrow">EJEMPLOS COTIDIANOS</p><h2>Frases que vale la pena cuestionar.</h2></div></div>
+      <div class="card-grid">
+        <Card number="A" tag="EN EL TRABAJO" title="“Ese oficio es de hombres”" description="Los oficios técnicos, científicos y de construcción requieren formación y habilidades, no un género determinado." tone="peach" />
+        <Card number="B" tag="EN LOS CUIDADOS" title="“Las mujeres cuidan mejor”" description="Cuidar es una capacidad humana que se aprende y se comparte. No es una responsabilidad exclusiva de las mujeres." tone="lavender" />
+        <Card number="C" tag="EN EL LIDERAZGO" title="“Un buen jefe debe ser duro”" description="Liderar también implica escuchar, colaborar, comunicar y tomar decisiones responsables." tone="mint" />
+      </div>
+    </section>
+    <section class="text-callout"><p class="eyebrow">UNA IDEA CLAVE</p><h2>La elección de una profesión debería depender de los intereses y capacidades de cada persona, no de expectativas impuestas.</h2></section>
+  </div>
+</Layout>

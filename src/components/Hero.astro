@@ -1,0 +1,21 @@
+---
+const { eyebrow = "Una mirada sin prejuicios", title, highlight, description, action = "Conoce el tema", href = "/tema", number = "01" } = Astro.props;
+---
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow"><span>{number}</span> {eyebrow}</p>
+    <h1>{title} <em>{highlight}</em></h1>
+    <p class="hero-description">{description}</p>
+    <a class="button button-dark" href={href}>{action} <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="hero-art" role="img" aria-label="Ilustración abstracta de figuras diversas unidas por formas de colores">
+    <div class="art-circle circle-one"></div>
+    <div class="art-circle circle-two"></div>
+    <div class="art-circle circle-three"></div>
+    <div class="art-sun">✳</div>
+    <span class="art-word word-one">IDEAS</span>
+    <span class="art-word word-two">TALENTO</span>
+    <span class="art-word word-three">FUTURO</span>
+    <div class="art-note">Todas las<br />posibilidades.</div>
+  </div>
+</section>
